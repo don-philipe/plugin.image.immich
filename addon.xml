@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.immich" name="immich" version="0.0.1" provider-name="spacedon">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>image</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_gb">View your Immich pictures on Kodi</summary>
+		<description lang="en_gb">A Kodi plugin that lets you browse your Immich pictures collection.</description>
+		<disclaimer lang="en_gb">This plugin is is not officially supported by the creators of Immich.</disclaimer>
+		<license>GPL-3.0-only </license>
+		<source>https://github.com/don-philipe/plugin.image.immich</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<news></news>
+	 </extension>
+</addon>
